@@ -1,4 +1,4 @@
-# Task Manager + Notes Support
+# Task Manager
 
 ## Overview
 - A simple task manager application with RESTful APIs for managing tasks and their associated notes.
@@ -38,9 +38,6 @@
 - **body**: string, note content
 - **task_id**: int, foreign key referencing tasks.id
 
-## Key Concepts
-- **Idempotency**: Ensures that repeated requests (e.g., DELETE) have the same effect.
-- RESTful design principles for API development.
 
 
 
